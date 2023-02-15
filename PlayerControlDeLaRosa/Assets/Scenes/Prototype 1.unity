@@ -412,7 +412,7 @@ Camera:
   field of view: 60
   orthographic: 0
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 3
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -451,9 +451,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 534669902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f67d2766c80eb9542b45f4bd9d02639a, type: 3}
+  m_Script: {fileID: 11500000, guid: df16649bff146044a975f70fa96d6b45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 748008363}
 --- !u!1001 &715884044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -528,6 +529,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb5a90081c94287429f2e3814bbfffc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
+  turnSpeed: 5
+  horizontalInput: 0
 --- !u!54 &748008369
 Rigidbody:
   m_ObjectHideFlags: 0
